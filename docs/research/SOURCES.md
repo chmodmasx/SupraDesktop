@@ -52,3 +52,6 @@ Fijar build nativo de macOS, permisos de uso de referencia y corpus; extraer val
 
 ## Investigación de plataforma interna
 [Índice A00/P16–P30](../specifications/platform/README.md): fuentes por subsistema (AppDir/AppImage/Flatpak/helloSystem/Apple Bundles, Smithay, etagere, xkbcommon, Unicode, AccessKit/Orca, systemd, calloop/Tokio/zbus, UPower, portals, IronRDP, Fluent/ICU4X, Rust ABI/WIT, Freedesktop Notifications, BlueZ/UDisks2, tracing). Consulta documental, 2026-11-24. Sin resultados de ejecución.
+
+## Distribución Arch atómica
+[Investigación y referencias](../distribution/README.md), [actualizaciones](../distribution/DEPLOYMENT.md), [AUR](../distribution/APPLICATIONS_AUR.md), [drivers](../distribution/KERNEL_EXTENSIONS.md), [build](../distribution/BUILD_RELEASE.md). Fuentes verificadas documentalmente 2026-11-24; no se ha ejecutado una VM ni creado imágenes.

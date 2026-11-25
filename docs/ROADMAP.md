@@ -16,7 +16,7 @@ Todos pendientes salvo creación de documentación fundacional (M00 parcial). No
 | M09 | Files, Settings, Preview, Terminal, Monitor, Archive | M04, M08 |
 | M10 | Matriz Qt/GTK/Electron/Flatpak/Steam/Wine | M07–M09 |
 | M11 | Hardening, accesibilidad, rendimiento, recuperación, pruebas de permisos | M07–M10 |
-| M12 | Paquetes Debian, sbuild/autopkgtest, sesión alternativa, ISO experimental | M11 |
+| M12 | PKGBUILD, repositorio Arch congelado, imagen atómica y sesión/ISO experimental | M11 |
 | M13 | Auditoría y 1.0 únicamente con aprobación y puertas satisfechas | M12 |
 
 AI Ready transversal desde M00: catálogo y permisos en M01–M04; acciones nativas y supervisión en M05–M08; MCP, portales y sesión aislada validados antes de declarar AI Ready operativo. Cada módulo entrega API, pruebas negativas y accesibilidad junto a UI, no como tarea final.
@@ -31,3 +31,6 @@ Consultar [puertas](testing/SUBSYSTEM_VALIDATION.md) para ordenar experimentos p
 
 ## Plataforma A00/P16–P30
 [Puertas](testing/PLATFORM_VALIDATION.md). Diagnóstico y event loop desde M01/M02; composición y memoria antes de efectos avanzados; IME/a11y/i18n en primer toolkit; registro antes de Dock y Applications; gestión de sesión y energía antes de despliegue; remoting externo y formato propio no bloquean núcleo.
+
+## Track D — distribución oficial candidata
+[D00–D12](distribution/VALIDATION.md) paralelo al escritorio, sin bloquear M01/M02. D00 arquitectura; D01–D04 construir base y probar actualización/rollback en VM; D05–D08 módulos y aplicaciones; D09–D12 seguridad, hardware, instalador, distribución. Ninguna imagen estable sin aprobación. No sustituir el proyecto SupraLINUX existente.

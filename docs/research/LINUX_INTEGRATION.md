@@ -18,3 +18,5 @@ Reutilizar estándares [Freedesktop](https://www.freedesktop.org/specifications/
 File manager y búsqueda: separar adaptadores de red y parsers; usar fuentes de datos con permisos de usuario y exclusiones explícitas. Indexación incremental, reconstrucción y límites; no capturar secretos ni exponer índice completo a agente. No usar datos reales en fixtures.
 
 M00 pendiente: matriz de servicios/versiones Ubuntu 26.04, packaging de sesión, SDDM/login, instalación/desinstalación y pruebas de rollback. No se ha ejecutado nada en host.
+
+La matriz de servicios Ubuntu 26.04 queda histórica para la ruta oficial; preparar matriz Arch congelada. No eliminar compatibilidad técnica con Ubuntu ni cambiar SupraLINUX existente. [Distribución](../distribution/README.md).

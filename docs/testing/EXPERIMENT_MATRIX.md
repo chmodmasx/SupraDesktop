@@ -18,7 +18,7 @@ Estado: NOT_RUN en todas. Registrar revisión, comandos, entorno, resultados, li
 | E12 | ¿Provenance y licencias? | Inventario, revisión upstream, derechos, source artifacts y avisos |
 | E13 | ¿Fidelidad 1:1? | Corpus legítimo de referencia, ROI y mediciones reproducibles |
 | E14 | ¿Rendimiento? | p95/p99, PSS, VRAM, consumo, dropped frames, escenarios definidos |
-| E15 | ¿Packaging reversible? | sbuild/autopkgtest y sesión alternativa, rollback sin cambiar defaults |
+| E15 | ¿Packaging reversible? | devtools/build limpio y pruebas de imagen y sesión alternativa, rollback sin cambiar defaults |
 
 Secuencia inicial E01–E07 en paralelo si contratos acordados, después E08–E10, E11/E15 en entorno dedicado. E12 transversal y antes de distribuir; E13 se inicia con fixtures sintéticos y se completa con referencia nativa; E14 en cada etapa. No bloquear todo M00 por disponibilidad de macOS físico, pero no declarar 1:1 hasta obtener evidencia.
 

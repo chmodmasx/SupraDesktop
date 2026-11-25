@@ -19,3 +19,5 @@ Todos NOT_RUN. Ver [especificaciones](../specifications/platform/README.md). Usa
 | P29 | hotplug, adaptadores y permisos | M07/M08 |
 | P30 | trazas, métricas, export redactado | M01 transversal |
 P16/P17/P21/P22/P30 tempranos, P18/P19/P26 en primer UI, P20 antes de Dock. A00 primero portables/registro, formato nativo solo si brecha comprobada. P25 headless útil para CI, servidor remoto externo no bloquea primera sesión. P27 no obliga a framework de plugins en M00. Cada especificación define subcasos; pruebas nativas macOS aún pendientes.
+
+A00 se actualiza para no ofrecer .deb en distribución oficial. Añadir pruebas de aplicaciones AUR exportadas y extensiones host separadas. [Puertas D00–D12](../distribution/VALIDATION.md).

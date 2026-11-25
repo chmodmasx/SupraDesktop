@@ -19,3 +19,6 @@ Estados: PROPOSED, ACCEPTED (ratificado por mantenedor), SUPERSEDED, REJECTED. N
 
 - [0011](0011-application-bundles.md) — experiencia Applications y bundles opcionales.
 - [0012](0012-platform-runtime.md) — núcleo de ejecución y adaptadores.
+
+- [0013](0013-atomic-arch.md) — distribución oficial Arch atómica.
+- [0014](0014-host-extensions.md) — AUR y extensiones del kernel.
