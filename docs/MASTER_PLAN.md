@@ -25,3 +25,6 @@ Los principios aprobados guían M00. El resto es especificación propuesta salvo
 
 ## Aclaración de alcance aprobada
 La fidelidad 1:1 abarca apariencia, disposición, materiales y estados de toda la interfaz propia, con excepciones explícitas para arte, marca y tipografía propietaria. No utilizar recursos de Apple; medir independientemente y documentar desviaciones. La compatibilidad externa y las restricciones transversales siguen vigentes. Véase [metodología](reference-macos27/MEASUREMENT_PROTOCOL.md).
+
+## Investigación ampliada y orden de prototipos
+Consultar [índice de investigación](research/SOURCES.md) y [puertas experimentales](testing/EXPERIMENT_MATRIX.md). Resolver toolkit, composición, compatibilidad, lifecycle y permisos mediante pruebas pequeñas antes de comprometer arquitectura definitiva. WhiteSur es candidato a tema de iconos libre reemplazable; parecido estético no implica exclusión automática. No importar recursos sin acreditar derechos.

@@ -22,3 +22,6 @@ Todos pendientes salvo creación de documentación fundacional (M00 parcial). No
 AI Ready transversal desde M00: catálogo y permisos en M01–M04; acciones nativas y supervisión en M05–M08; MCP, portales y sesión aislada validados antes de declarar AI Ready operativo. Cada módulo entrega API, pruebas negativas y accesibilidad junto a UI, no como tarea final.
 
 Versiones tentativas 0.0.1 laboratorio, 0.1 compositor, 0.2 glass, 0.3 UI, 0.4 shell, 0.5 ventanas, 0.6 sesión, 0.7 servicios, 0.8 apps, 0.9 beta. No crear tags/releases automáticamente.
+
+## Puertas de riesgo previas a expansión
+[Matriz experimental](testing/EXPERIMENT_MATRIX.md): toolkit y a11y, render offscreen y composición, región blur, cliente externo, contrato de acción, ciclo de sesión y modelo de permisos. No esperar a M11 para identificar bloqueos estructurales; incorporar pruebas tempranas. La puerta M00 requiere resolver o registrar formalmente cada incertidumbre crítica; no exigir medición física completa para comenzar fixtures sintéticos.

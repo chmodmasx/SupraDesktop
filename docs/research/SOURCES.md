@@ -32,3 +32,11 @@ Fijar build nativo de macOS, permisos de uso de referencia y corpus; extraer val
 
 ## Iconografía
 - [WhiteSur Icon Theme, revisión 73d8040](https://github.com/vinceliuice/WhiteSur-icon-theme/tree/73d8040da51a9ed74e47c7366e7e9ff437601a5c): candidato GPL v3. [COPYING](https://github.com/vinceliuice/WhiteSur-icon-theme/blob/73d8040da51a9ed74e47c7366e7e9ff437601a5c/COPYING), [AUTHORS](https://github.com/vinceliuice/WhiteSur-icon-theme/blob/73d8040da51a9ed74e47c7366e7e9ff437601a5c/AUTHORS), [install.sh](https://github.com/vinceliuice/WhiteSur-icon-theme/blob/73d8040da51a9ed74e47c7366e7e9ff437601a5c/install.sh). README describe estética Big Sur; instalador incluye opción de reemplazar logo Apple y no copia COPYING/AUTHORS por defecto (línea comentada). Auditoría por recurso pendiente; no importar todavía.
+
+## Revisión técnica ampliada
+- [Toolkit y prototipos](TOOLKIT_EVALUATION.md).
+- [Composición, protocolos y gráficos](GRAPHICS_AND_PROTOCOLS.md).
+- [Integración Linux y ciclo de sesión](LINUX_INTEGRATION.md).
+- [Inventario visual y de interacción](../reference-macos27/INTERACTION_MATRIX.md).
+- [Puertas experimentales M00/M01](../testing/EXPERIMENT_MATRIX.md).
+- [Interoperabilidad de agentes](../ai-native/INTEROPERABILITY.md).

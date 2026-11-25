@@ -10,3 +10,5 @@ Estados: PROPOSED, ACCEPTED (ratificado por mantenedor), SUPERSEDED, REJECTED. N
 - [0006](0006-rendering.md) — renderer inicial.
 
 - [0007](0007-icon-theme.md) — tema de iconos libre reemplazable.
+
+- [0008](0008-standard-protocols.md) — reutilizar protocolos estándar antes de extender.

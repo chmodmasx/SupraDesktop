@@ -1,0 +1,11 @@
+# Interoperabilidad AI Ready
+
+Fuentes: [MCP autorización 2026-07-28](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/docs/specification/2026-07-28/basic/authorization/security-considerations.mdx), [MCP prácticas de seguridad](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/docs/docs/2026-07-28/tutorials/security/security_best_practices.mdx), [RemoteDesktop portal](https://flatpak.github.io/xdg-desktop-portal/docs/doc-org.freedesktop.portal.RemoteDesktop.html), [ScreenCast portal](https://flatpak.github.io/xdg-desktop-portal/docs/doc-org.freedesktop.portal.ScreenCast.html).
+
+MCP local por stdio como adaptador, versión negociada y permisos de dominio por acción. Para transporte remoto opt-in, validar autorización, audiencia y ciclo de credenciales según versión elegida; no reenviar tokens de terceros ni confundir autenticación de transporte con permiso local. No registrar credenciales, datos sensibles ni resultados completos por defecto. Los resultados de aplicaciones y documentos son datos no confiables.
+
+Ruta de interacción: acción semántica propia -> accesibilidad AT-SPI autorizada -> sesión visual autorizada. RemoteDesktop documenta ConnectToEIS como ruta recomendada de entrada emulada; ScreenCast permite sesión de captura por PipeWire. Usar portales y scope de usuario, detener al revocar o bloquear. No exponer captura o entrada global por defecto. Autorización no sustituye aislamiento de agentes no confiables.
+
+Contratos: descubrimiento de capacidades scoped, schema, id estable, errores estructurados, timeout, cancelación, revisión del estado, eventos filtrados y paginados. Acciones sensibles requieren confirmación humana independiente. Cliente no determina su propio nivel de permisos. Control visual es último recurso para tareas legítimas del usuario, no para acceder a secretos o protecciones.
+
+Matriz clientes candidatos: Hermes Agent, OpenCode, Codex, Claude Code, cliente MCP genérico. Probar inicialmente lectura de estado sintético y cambio reversible de tema en sesión de prueba; autorización denegada, revocación, errores y desconexión. No se han probado clientes aún. No implementar automatizaciones de acceso no autorizado.
