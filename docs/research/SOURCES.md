@@ -55,3 +55,6 @@ Fijar build nativo de macOS, permisos de uso de referencia y corpus; extraer val
 
 ## Distribución Arch atómica
 [Investigación y referencias](../distribution/README.md), [actualizaciones](../distribution/DEPLOYMENT.md), [AUR](../distribution/APPLICATIONS_AUR.md), [drivers](../distribution/KERNEL_EXTENSIONS.md), [build](../distribution/BUILD_RELEASE.md). Fuentes verificadas documentalmente 2026-11-24; no se ha ejecutado una VM ni creado imágenes.
+
+## Revisión de código de distribución
+Arkdep d7aa2f7, Solera 0b405285, bootc e074dc8 y Calamares histórico 95aa33f: [auditoría y referencias](../distribution/ARKDEP_SOURCE_REVIEW.md), [frontend](../distribution/INSTALLER_FRONTEND.md). Calamares activo en Codeberg; revisar versión 3.4.x al prototipar, no tratar el mirror histórico como upstream actual. Revisión estática y documental, sin VM, sin ejecución de scripts.

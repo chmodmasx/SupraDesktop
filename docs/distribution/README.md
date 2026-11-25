@@ -24,3 +24,6 @@ SupraDesktop y la distribución oficial son proyectos diferenciados, con interfa
 - [GPU, CUDA y gaming](GPU_COMPATIBILITY.md)
 - [Matriz de investigación ampliada](DEEP_VALIDATION.md)
 Todas las elecciones concretas son PROPOSED y pruebas NOT_RUN.
+
+## Revisión de implementación
+[Auditoría de código Arkdep y estrategia de adaptación](ARKDEP_SOURCE_REVIEW.md), [frontend Calamares](INSTALLER_FRONTEND.md), [prototipos y pruebas de decisión](PROTOTYPE_GATES.md). El mantenedor ratifica congelación coherente, cifrado LUKS2, recuperación offline, Beginner First y adaptación visual del instalador. Backend todavía no seleccionado; no crear fork hasta validar brecha y licencia. Calamares upstream se trasladó a Codeberg.

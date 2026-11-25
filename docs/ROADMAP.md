@@ -34,3 +34,6 @@ Consultar [puertas](testing/SUBSYSTEM_VALIDATION.md) para ordenar experimentos p
 
 ## Track D — distribución oficial candidata
 [D00–D12](distribution/VALIDATION.md) paralelo al escritorio, sin bloquear M01/M02. D00 arquitectura; D01–D04 construir base y probar actualización/rollback en VM; D05–D08 módulos y aplicaciones; D09–D12 seguridad, hardware, instalador, distribución. Ninguna imagen estable sin aprobación. No sustituir el proyecto SupraLINUX existente.
+
+## Siguiente corte verificable
+[Prototipos D00 y M01/M02](distribution/PROTOTYPE_GATES.md). No ampliar scope antes de obtener evidencia. Mantener contratos portables del escritorio y de SupraDeploy; prototipo de distribución no bloquea compositor anidado. Backend candidato Arkdep, Calamares frontend adaptado, ninguna selección definitiva ni release.

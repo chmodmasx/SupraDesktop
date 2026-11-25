@@ -43,3 +43,6 @@ Consultar [índice de investigación](research/SOURCES.md) y [puertas experiment
 
 ## Experiencia de distribución ratificada
 Diseñar primero para usuarios sin experiencia Linux, con procesos gráficos coherentes con macOS, accesibles y honestos. Modos avanzados opcionales. SupraDesktop y distribución separados. Paquetes Arch/AUR por capas elegibles, módulos bajo demanda; v4l2loopback no requisito de base. Ver [UX](distribution/USER_EXPERIENCE.md), [SupraLayers](distribution/PACKAGE_LAYERING.md) y [validación ampliada](distribution/DEEP_VALIDATION.md).
+
+## Ratificación y transición a prototipos
+Priorizar Arkdep adaptado como PoC, no dependencia definitiva. [Auditoría](distribution/ARKDEP_SOURCE_REVIEW.md), [frontend del instalador](distribution/INSTALLER_FRONTEND.md) y [gates](distribution/PROTOTYPE_GATES.md). Mantener distro como proyecto independiente; no migrar SupraLINUX ni crear repo sin autorización. La investigación documental no prueba fidelidad o atomicidad. Siguiente trabajo recomendado: cerrar contradicciones y ejecutar cortes verticales M01/M02 y D00–D04 en entornos descartables.

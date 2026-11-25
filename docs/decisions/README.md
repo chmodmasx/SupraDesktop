@@ -26,3 +26,5 @@ Estados: PROPOSED, ACCEPTED (ratificado por mantenedor), SUPERSEDED, REJECTED. N
 - [0015](0015-layered-deployments.md) — capas transaccionales y libertad de paquetes.
 - [0016](0016-beginner-first.md) — experiencia visual orientada a usuarios no técnicos.
 - [0017](0017-release-trust.md) — cadena de confianza y entrega.
+
+- [0018](0018-deployment-adapter.md) — SupraDeploy, adaptación de backend y frontend independiente.
