@@ -40,3 +40,6 @@ Fijar build nativo de macOS, permisos de uso de referencia y corpus; extraer val
 - [Inventario visual y de interacción](../reference-macos27/INTERACTION_MATRIX.md).
 - [Puertas experimentales M00/M01](../testing/EXPERIMENT_MATRIX.md).
 - [Interoperabilidad de agentes](../ai-native/INTEROPERABILITY.md).
+
+## Revisión avanzada
+[Índice de fidelidad](../reference-macos27/fidelity/README.md): geometría, animaciones, Dock, ventanas y menús, gestos, scroll, óptica, texto, controles, monitores, gestión de sesión y aplicaciones. Referencias públicas por documento; no kits ni recursos Apple. Consulta documental 2026-11-24; mediciones nativas pendientes.

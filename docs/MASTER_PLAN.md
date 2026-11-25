@@ -28,3 +28,6 @@ La fidelidad 1:1 abarca apariencia, disposición, materiales y estados de toda l
 
 ## Investigación ampliada y orden de prototipos
 Consultar [índice de investigación](research/SOURCES.md) y [puertas experimentales](testing/EXPERIMENT_MATRIX.md). Resolver toolkit, composición, compatibilidad, lifecycle y permisos mediante pruebas pequeñas antes de comprometer arquitectura definitiva. WhiteSur es candidato a tema de iconos libre reemplazable; parecido estético no implica exclusión automática. No importar recursos sin acreditar derechos.
+
+## Especificaciones avanzadas
+[Índice de fidelidad](reference-macos27/fidelity/README.md). El mantenedor permite forks, adaptaciones e incorporación de código libre con obligaciones satisfechas. [Política upstream](development/UPSTREAM_POLICY.md). Ninguna dependencia dicta nuestro diseño. Los modelos matemáticos son candidatos a ajustar mediante observación independiente, no parámetros nativos verificados.

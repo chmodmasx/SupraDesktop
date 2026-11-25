@@ -14,3 +14,5 @@
 12. No incluir secretos, datos privados, capturas sensibles o credenciales en código, commits, logs ni prompts.
 
 13. Aplicar 1:1 a la interfaz, no solo a una estética aproximada. La excepción artística no autoriza cambiar paleta, blur, geometría, sombras, disposición, estados o movimiento. No usar kits, iconos, fuentes ni otros recursos de Apple. Emplear observaciones permitidas y recursos propios; consultar docs/reference-macos27/MEASUREMENT_PROTOCOL.md. Los valores históricos no verificados no son tokens aprobados.
+
+14. Ninguna dependencia dicta el diseño. Si el componente no supera los criterios 1:1, AI Ready u otros principios, investigar extensión, adaptación, fork, sustitución o implementación propia. Documentar alternativas, procedencia, licencia, pruebas, coste y mantenimiento antes de adoptar código. No rebajar los criterios para acomodar un toolkit. Consultar docs/development/UPSTREAM_POLICY.md.

@@ -12,3 +12,5 @@ Estados: PROPOSED, ACCEPTED (ratificado por mantenedor), SUPERSEDED, REJECTED. N
 - [0007](0007-icon-theme.md) — tema de iconos libre reemplazable.
 
 - [0008](0008-standard-protocols.md) — reutilizar protocolos estándar antes de extender.
+
+- [0009](0009-reuse-adapt-build.md) — ninguna dependencia dicta el diseño.

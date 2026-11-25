@@ -21,3 +21,6 @@ Estado: NOT_RUN en todas. Registrar revisión, comandos, entorno, resultados, li
 | E15 | ¿Packaging reversible? | sbuild/autopkgtest y sesión alternativa, rollback sin cambiar defaults |
 
 Secuencia inicial E01–E07 en paralelo si contratos acordados, después E08–E10, E11/E15 en entorno dedicado. E12 transversal y antes de distribuir; E13 se inicia con fixtures sintéticos y se completa con referencia nativa; E14 en cada etapa. No bloquear todo M00 por disponibilidad de macOS físico, pero no declarar 1:1 hasta obtener evidencia.
+
+## Descomposición de E13
+[Especificaciones de fidelidad](../reference-macos27/fidelity/README.md) con casos G, W, D, A, I, T, O, C, M y F. Cada caso permanece NOT_RUN hasta evidencia. No cerrar requisitos por similitud subjetiva ni usar constantes de otros escritorios como mediciones de macOS.
