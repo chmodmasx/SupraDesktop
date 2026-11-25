@@ -22,3 +22,7 @@ Estados: PROPOSED, ACCEPTED (ratificado por mantenedor), SUPERSEDED, REJECTED. N
 
 - [0013](0013-atomic-arch.md) — distribución oficial Arch atómica.
 - [0014](0014-host-extensions.md) — AUR y extensiones del kernel.
+
+- [0015](0015-layered-deployments.md) — capas transaccionales y libertad de paquetes.
+- [0016](0016-beginner-first.md) — experiencia visual orientada a usuarios no técnicos.
+- [0017](0017-release-trust.md) — cadena de confianza y entrega.
