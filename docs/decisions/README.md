@@ -16,3 +16,6 @@ Estados: PROPOSED, ACCEPTED (ratificado por mantenedor), SUPERSEDED, REJECTED. N
 - [0009](0009-reuse-adapt-build.md) — ninguna dependencia dicta el diseño.
 
 - [0010](0010-shared-infrastructure.md) — infraestructura compartida y adaptadores de plataforma.
+
+- [0011](0011-application-bundles.md) — experiencia Applications y bundles opcionales.
+- [0012](0012-platform-runtime.md) — núcleo de ejecución y adaptadores.

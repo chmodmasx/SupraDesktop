@@ -27,3 +27,6 @@ Secuencia inicial E01–E07 en paralelo si contratos acordados, después E08–E
 
 ## S01–S15
 [Puertas de subsistemas](SUBSYSTEM_VALIDATION.md) complementan E01–E15, con dependencias, subcasos y criterios por área. No duplicar métricas o declarar ejecución antes de realizarla.
+
+## A00/P16–P30
+[Validación de plataforma](PLATFORM_VALIDATION.md). No ampliar scope a gestor de paquetes propio, compositor genérico de juegos o daemon térmico; resolver brechas verificadas. Todos NOT_RUN.

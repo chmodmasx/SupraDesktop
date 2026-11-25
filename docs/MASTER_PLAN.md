@@ -34,3 +34,6 @@ Consultar [índice de investigación](research/SOURCES.md) y [puertas experiment
 
 ## Subsistemas S01–S15
 [Especificaciones detalladas](specifications/subsystems/README.md), [puertas y dependencias](testing/SUBSYSTEM_VALIDATION.md). Reutilizar formatos y protocolos estándar, adaptar implementaciones libres o construir propias si insuficientes. No adoptar toolkit ni API sin experimentos. Integrar acciones semánticas, configuración y accesibilidad desde cada módulo.
+
+## Experiencia Applications y plataforma interna
+[Especificaciones A00/P16–P30](specifications/platform/README.md), [puertas](testing/PLATFORM_VALIDATION.md). Vista Aplicaciones unificada y ~/Applications para portables; soportar AppImage/AppDir primero, .deb/Flatpak mediante sus gestores, SupraBundle opcional solo si brecha comprobada. No confundir formato con 1:1 visual ni crear gestor nuevo. Núcleo: render graph pequeño, presupuesto GPU, entrada Unicode/IME y accesibilidad, registro/lifecycle, eventos/IPC, diagnóstico, energía, headless, i18n, ABI, notificaciones y dispositivos. Todos candidatos y experimentos pendientes.

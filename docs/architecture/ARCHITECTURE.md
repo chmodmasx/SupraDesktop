@@ -24,3 +24,6 @@ Cambios de dependencias, APIs, licencias, modelo de seguridad y pipeline requier
 
 ## Infraestructura transversal S01–S15
 SupraIcon, SupraDecoration, SupraLayout, virtualización, SupraPreferences y SupraTokens son responsabilidades candidatas, no necesariamente un crate por nombre. Separar diseño/medición de generación y runtime. FileOps, preview, drag/drop, widgets, sesión, global menu, sound, share/continuity y shortcuts consumen contratos existentes; no crear segunda autoridad de estado, permisos o acciones. [Especificaciones](../specifications/subsystems/README.md).
+
+## Plataforma interna y Applications
+[Especificaciones](../specifications/platform/README.md). Scene snapshot autoritativo y render graph acotado, pools/atlas separados de buffers cliente; calloop compositor y servicios async con colas acotadas, IPC control-plane y data-plane separados; AppRegistry reúne identidad/instalación/instancia/ventanas sin confundir PID con app. Providers APT/Flatpak/portable, vista unificada y bundle opcional. No segunda autoridad de acciones o permisos. Plugins de terceros fuera de proceso crítico. Diagnóstico local con datos mínimos.

@@ -49,3 +49,6 @@ Fijar build nativo de macOS, permisos de uso de referencia y corpus; extraer val
 
 ## Investigación de subsistemas S01–S15
 [Índice](../specifications/subsystems/README.md) contiene referencias primarias y candidatos, con fuentes por área (Icon Composer, freedesktop, Qt, GTK, Taffy, DTCG, Quick Look, Wayland, WASI, systemd, LocalSend, App Intents). Consulta documental, no mediciones ni importación. [Puertas](../testing/SUBSYSTEM_VALIDATION.md).
+
+## Investigación de plataforma interna
+[Índice A00/P16–P30](../specifications/platform/README.md): fuentes por subsistema (AppDir/AppImage/Flatpak/helloSystem/Apple Bundles, Smithay, etagere, xkbcommon, Unicode, AccessKit/Orca, systemd, calloop/Tokio/zbus, UPower, portals, IronRDP, Fluent/ICU4X, Rust ABI/WIT, Freedesktop Notifications, BlueZ/UDisks2, tracing). Consulta documental, 2026-11-24. Sin resultados de ejecución.

@@ -28,3 +28,6 @@ Versiones tentativas 0.0.1 laboratorio, 0.1 compositor, 0.2 glass, 0.3 UI, 0.4 s
 
 ## Dependencias S01–S15
 Consultar [puertas](testing/SUBSYSTEM_VALIDATION.md) para ordenar experimentos por riesgo. S07/S06 antes de tokens dispersos; S04/S02 antes de shell masivo; S05/S08/S09 antes de Files; S11 desde compositor inicial; S12 con app registry; S14 y S15 no bloquean sesión básica. Licencias y AI Ready transversales.
+
+## Plataforma A00/P16–P30
+[Puertas](testing/PLATFORM_VALIDATION.md). Diagnóstico y event loop desde M01/M02; composición y memoria antes de efectos avanzados; IME/a11y/i18n en primer toolkit; registro antes de Dock y Applications; gestión de sesión y energía antes de despliegue; remoting externo y formato propio no bloquean núcleo.

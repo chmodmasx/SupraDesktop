@@ -17,3 +17,6 @@ Revisión documental 2026-11-24. Todas PROPOSED, experimentos NOT_RUN. No recurs
 - [15-SHORTCUTS](15-SHORTCUTS.md)
 
 Prioridad: S02/S03/S04/S06/S07 fundamentos tempranos; S05/S08/S09 para Files y UI; S11 para sesión; S12 para menú; S01 temprano como proveedor convencional, óptica multicapa tras renderer; S10/S13/S14/S15 después de contratos, permisos y shell base. AI Ready transversal, no depende de S15. [Matriz de pruebas](../../testing/SUBSYSTEM_VALIDATION.md).
+
+## Plataforma complementaria
+[Aplicaciones A00 y plataforma P16–P30](../platform/README.md). No duplican S01–S15; especializan infraestructura interna, lifecycle, diagnóstico y experiencia de distribución.
