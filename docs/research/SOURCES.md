@@ -43,3 +43,6 @@ Fijar build nativo de macOS, permisos de uso de referencia y corpus; extraer val
 
 ## Revisión avanzada
 [Índice de fidelidad](../reference-macos27/fidelity/README.md): geometría, animaciones, Dock, ventanas y menús, gestos, scroll, óptica, texto, controles, monitores, gestión de sesión y aplicaciones. Referencias públicas por documento; no kits ni recursos Apple. Consulta documental 2026-11-24; mediciones nativas pendientes.
+
+## Candidatos complementarios
+[Kurbo](https://github.com/linebender/kurbo) curvas Rust; [Parley](https://github.com/linebender/parley) layout enriquecido; [cosmic-text](https://github.com/pop-os/cosmic-text) layout bidi; [Tantivy](https://github.com/quickwit-oss/tantivy) full text; [DRM/KMS](https://docs.kernel.org/gpu/drm-kms.html) modos y color; [Wayland color management](https://wayland.app/protocols/color-management-v1). Revisión documental, no importación ni selección definitiva.
