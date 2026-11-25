@@ -14,3 +14,5 @@ Estados: PROPOSED, ACCEPTED (ratificado por mantenedor), SUPERSEDED, REJECTED. N
 - [0008](0008-standard-protocols.md) — reutilizar protocolos estándar antes de extender.
 
 - [0009](0009-reuse-adapt-build.md) — ninguna dependencia dicta el diseño.
+
+- [0010](0010-shared-infrastructure.md) — infraestructura compartida y adaptadores de plataforma.

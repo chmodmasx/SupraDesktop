@@ -25,3 +25,6 @@ Versiones tentativas 0.0.1 laboratorio, 0.1 compositor, 0.2 glass, 0.3 UI, 0.4 s
 
 ## Puertas de riesgo previas a expansión
 [Matriz experimental](testing/EXPERIMENT_MATRIX.md): toolkit y a11y, render offscreen y composición, región blur, cliente externo, contrato de acción, ciclo de sesión y modelo de permisos. No esperar a M11 para identificar bloqueos estructurales; incorporar pruebas tempranas. La puerta M00 requiere resolver o registrar formalmente cada incertidumbre crítica; no exigir medición física completa para comenzar fixtures sintéticos.
+
+## Dependencias S01–S15
+Consultar [puertas](testing/SUBSYSTEM_VALIDATION.md) para ordenar experimentos por riesgo. S07/S06 antes de tokens dispersos; S04/S02 antes de shell masivo; S05/S08/S09 antes de Files; S11 desde compositor inicial; S12 con app registry; S14 y S15 no bloquean sesión básica. Licencias y AI Ready transversales.

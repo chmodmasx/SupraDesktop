@@ -24,3 +24,6 @@ Secuencia inicial E01–E07 en paralelo si contratos acordados, después E08–E
 
 ## Descomposición de E13
 [Especificaciones de fidelidad](../reference-macos27/fidelity/README.md) con casos G, W, D, A, I, T, O, C, M y F. Cada caso permanece NOT_RUN hasta evidencia. No cerrar requisitos por similitud subjetiva ni usar constantes de otros escritorios como mediciones de macOS.
+
+## S01–S15
+[Puertas de subsistemas](SUBSYSTEM_VALIDATION.md) complementan E01–E15, con dependencias, subcasos y criterios por área. No duplicar métricas o declarar ejecución antes de realizarla.

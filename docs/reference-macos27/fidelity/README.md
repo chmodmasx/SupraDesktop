@@ -12,3 +12,6 @@ Observación documental, 2026-11-24. Ninguna medición nativa ejecutada. Los mod
 | [Files, Search y sesión](APPS_SESSION.md) | apps / services |
 | [Cambios macOS 27](MACOS27_DELTA.md) | diseño |
 Para cada caso: entrada, precondición, estado final, referencia, métricas, tolerancia, resultados y discrepancias. Separar medición observada de tokens de producción. No comparar capturas de distinta escala/perfil sin normalización.
+
+## Subsistemas adicionales
+[Especificaciones S01–S15](../../specifications/subsystems/README.md) detallan iconos, decoración, integración Qt/GTK, layout, preferencias, tokens, listas, miniaturas, DnD, widgets, sesiones, menú, sonido, continuidad y automatización. Ninguna medición nativa efectuada.

@@ -31,3 +31,6 @@ Consultar [índice de investigación](research/SOURCES.md) y [puertas experiment
 
 ## Especificaciones avanzadas
 [Índice de fidelidad](reference-macos27/fidelity/README.md). El mantenedor permite forks, adaptaciones e incorporación de código libre con obligaciones satisfechas. [Política upstream](development/UPSTREAM_POLICY.md). Ninguna dependencia dicta nuestro diseño. Los modelos matemáticos son candidatos a ajustar mediante observación independiente, no parámetros nativos verificados.
+
+## Subsistemas S01–S15
+[Especificaciones detalladas](specifications/subsystems/README.md), [puertas y dependencias](testing/SUBSYSTEM_VALIDATION.md). Reutilizar formatos y protocolos estándar, adaptar implementaciones libres o construir propias si insuficientes. No adoptar toolkit ni API sin experimentos. Integrar acciones semánticas, configuración y accesibilidad desde cada módulo.

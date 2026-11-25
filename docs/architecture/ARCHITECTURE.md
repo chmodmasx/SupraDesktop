@@ -21,3 +21,6 @@ Un Cargo workspace virtual se introduce al existir el primer crate real. Aplicac
 
 ## Proceso de decisión
 Cambios de dependencias, APIs, licencias, modelo de seguridad y pipeline requieren ADR. Los límites se comprueban con cargo metadata y reglas de dependencias cuando exista código.
+
+## Infraestructura transversal S01–S15
+SupraIcon, SupraDecoration, SupraLayout, virtualización, SupraPreferences y SupraTokens son responsabilidades candidatas, no necesariamente un crate por nombre. Separar diseño/medición de generación y runtime. FileOps, preview, drag/drop, widgets, sesión, global menu, sound, share/continuity y shortcuts consumen contratos existentes; no crear segunda autoridad de estado, permisos o acciones. [Especificaciones](../specifications/subsystems/README.md).
