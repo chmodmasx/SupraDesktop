@@ -29,3 +29,6 @@ Fijar build nativo de macOS, permisos de uso de referencia y corpus; extraer val
 
 ## Segunda revisión
 [Validación upstream](UPSTREAM_VALIDATION.md). Las referencias de kits y extracciones anteriores se conservan como historial no operativo, no como autorización ni fuente de tokens. No utilizar recursos de Apple. Priorizar documentación pública conceptual, observaciones permitidas y mediciones independientes.
+
+## Iconografía
+- [WhiteSur Icon Theme, revisión 73d8040](https://github.com/vinceliuice/WhiteSur-icon-theme/tree/73d8040da51a9ed74e47c7366e7e9ff437601a5c): candidato GPL v3. [COPYING](https://github.com/vinceliuice/WhiteSur-icon-theme/blob/73d8040da51a9ed74e47c7366e7e9ff437601a5c/COPYING), [AUTHORS](https://github.com/vinceliuice/WhiteSur-icon-theme/blob/73d8040da51a9ed74e47c7366e7e9ff437601a5c/AUTHORS), [install.sh](https://github.com/vinceliuice/WhiteSur-icon-theme/blob/73d8040da51a9ed74e47c7366e7e9ff437601a5c/install.sh). README describe estética Big Sur; instalador incluye opción de reemplazar logo Apple y no copia COPYING/AUTHORS por defecto (línea comentada). Auditoría por recurso pendiente; no importar todavía.
