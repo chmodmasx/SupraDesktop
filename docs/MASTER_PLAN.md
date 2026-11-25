@@ -46,3 +46,6 @@ Diseñar primero para usuarios sin experiencia Linux, con procesos gráficos coh
 
 ## Ratificación y transición a prototipos
 Priorizar Arkdep adaptado como PoC, no dependencia definitiva. [Auditoría](distribution/ARKDEP_SOURCE_REVIEW.md), [frontend del instalador](distribution/INSTALLER_FRONTEND.md) y [gates](distribution/PROTOTYPE_GATES.md). Mantener distro como proyecto independiente; no migrar SupraLINUX ni crear repo sin autorización. La investigación documental no prueba fidelidad o atomicidad. Siguiente trabajo recomendado: cerrar contradicciones y ejecutar cortes verticales M01/M02 y D00–D04 en entornos descartables.
+
+## Investigación final orientada a pruebas
+[Repositorios](architecture/REPOSITORY_BOUNDARIES.md), [laboratorio](testing/VALIDATION_LAB.md), [gráficos](research/GRAPHICS_PROTOTYPES.md), [captura](reference-macos27/CAPTURE_LAB.md), [licencias](development/LICENSE_STRATEGY.md), [infraestructura](distribution/RELEASE_LAB.md), [hardware/firmware](distribution/HARDWARE_FIRMWARE.md). 14 incertidumbres con gates; no declarar mediciones ni ejecución. Segundo repo recomendado, no creado.

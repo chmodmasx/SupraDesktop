@@ -1,0 +1,2 @@
+# ADR-0019 — Separación de repositorios
+Estado PROPOSED para repos físicos; ACCEPTED para independencia de proyectos. Recomendar SupraDesktop monorepo modular y distro oficial en segundo monorepo (nombre provisional SupraOS). No crear repositorio, fork ni migrar SupraLINUX sin autorización. Distro consume versiones fijadas del escritorio; SDK/tokens/acciones canónicos en escritorio, integración optional por proveedor, CI independiente. Transferir documentación manteniendo historia cuando se apruebe. [Fronteras](../architecture/REPOSITORY_BOUNDARIES.md).

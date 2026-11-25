@@ -15,3 +15,4 @@ Preferir C++/QML existente para adaptar Calamares a Rust First razonado, no reim
 
 ## Pruebas
 I01 branding/UI sintética clara/oscura, teclado/lector, es-AR/RTL, escala y ROI; I02 geometría de páginas, progreso indeterminado/determinado y errores sin falsear; I03 equivalencia de plan de disco entre frontend modificado y referencia en VM; I04 disco descartable, UEFI, LUKS2, instalación offline, reboot; I05 cancelación antes de commit y fallos durante jobs, explicar consecuencias; I06 recovery con compositor ausente, red ausente, versión anterior y medio externo; I07 dual boot fixture y preservación de datos únicamente si plan lo garantiza. Todos NOT_RUN.
+Documentación activa [configuración](https://calamares.codeberg.page/docs/deploy-configuration/) y [tester guide](https://calamares.codeberg.page/docs/test-guide/) confirma configuración modular. [Laboratorio](RELEASE_LAB.md). No inspección de código actual Codeberg ni prueba visual todavía.

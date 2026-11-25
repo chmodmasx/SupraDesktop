@@ -37,3 +37,6 @@ Consultar [puertas](testing/SUBSYSTEM_VALIDATION.md) para ordenar experimentos p
 
 ## Siguiente corte verificable
 [Prototipos D00 y M01/M02](distribution/PROTOTYPE_GATES.md). No ampliar scope antes de obtener evidencia. Mantener contratos portables del escritorio y de SupraDeploy; prototipo de distribución no bloquea compositor anidado. Backend candidato Arkdep, Calamares frontend adaptado, ninguna selección definitiva ni release.
+
+## Límites de integración
+[Repositorios](architecture/REPOSITORY_BOUNDARIES.md) y [laboratorio](testing/VALIDATION_LAB.md). M12 escritorio entrega paquete/integración reproducible; track D entrega imagen/ISO y release de distribución. Evitar que M12 obligue al escritorio a depender de Arkdep. Medición macOS nativa pendiente, fixtures sintéticos pueden comenzar.

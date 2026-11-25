@@ -28,3 +28,5 @@ Estados: PROPOSED, ACCEPTED (ratificado por mantenedor), SUPERSEDED, REJECTED. N
 - [0017](0017-release-trust.md) — cadena de confianza y entrega.
 
 - [0018](0018-deployment-adapter.md) — SupraDeploy, adaptación de backend y frontend independiente.
+
+- [0019](0019-repository-boundaries.md) — separación de repositorios y contratos.

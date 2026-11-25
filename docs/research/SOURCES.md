@@ -58,3 +58,6 @@ Fijar build nativo de macOS, permisos de uso de referencia y corpus; extraer val
 
 ## Revisión de código de distribución
 Arkdep d7aa2f7, Solera 0b405285, bootc e074dc8 y Calamares histórico 95aa33f: [auditoría y referencias](../distribution/ARKDEP_SOURCE_REVIEW.md), [frontend](../distribution/INSTALLER_FRONTEND.md). Calamares activo en Codeberg; revisar versión 3.4.x al prototipar, no tratar el mirror histórico como upstream actual. Revisión estática y documental, sin VM, sin ejecución de scripts.
+
+## Investigación orientada a evidencia
+[Gráficos](GRAPHICS_PROTOTYPES.md), [captura](../reference-macos27/CAPTURE_LAB.md), [licencias](../development/LICENSE_STRATEGY.md), [laboratorio](../testing/VALIDATION_LAB.md), [release](../distribution/RELEASE_LAB.md), [firmware](../distribution/HARDWARE_FIRMWARE.md). Fuentes consultadas 2026-11-24. No benchmarks ni mediciones nativas.

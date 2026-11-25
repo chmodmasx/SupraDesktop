@@ -30,3 +30,5 @@ Secuencia inicial E01–E07 en paralelo si contratos acordados, después E08–E
 
 ## A00/P16–P30
 [Validación de plataforma](PLATFORM_VALIDATION.md). No ampliar scope a gestor de paquetes propio, compositor genérico de juegos o daemon térmico; resolver brechas verificadas. Todos NOT_RUN.
+
+[Laboratorio](VALIDATION_LAB.md) y [corpus](../reference-macos27/CAPTURE_LAB.md). Referencia nativa macOS 27 requiere equipo compatible y autorización, fixtures propios pueden comenzar. NOT_RUN/BLOCKED según prueba.

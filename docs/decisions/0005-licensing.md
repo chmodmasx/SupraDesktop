@@ -4,3 +4,5 @@ Estado: PROPOSED / decisión pendiente. Proyecto destinado a código abierto. GP
 
 ## Aclaración del mantenedor
 No se usarán recursos de Apple. El diseño de interfaz se busca 1:1, exceptuando arte, marca y recursos propietarios; no es una reinterpretación visual. [Licencia Apple Design Resources](https://developer.apple.com/support/downloads/terms/apple-design-resources/Apple-Design-Resources-License-20230621-English.pdf) y [fuentes](https://developer.apple.com/fonts/) restringen sus respectivos recursos. No utilizarlos en diseño/implementación de SupraDesktop. La ausencia de recursos copiados no elimina por sí sola todos los riesgos de propiedad intelectual; revisar antes de distribuir. No eliminar valores observables solo por coincidir; exigir procedencia independiente y revisión. Licencia del código propio pendiente.
+
+[Recomendación y auditoría](../development/LICENSE_STRATEGY.md). GPL-3.0-or-later candidata para código propio, SDK permisivo solo independiente; ratificación pendiente. No aplicar licencia definitiva.
