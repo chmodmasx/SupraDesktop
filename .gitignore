@@ -1,0 +1,16 @@
+/target/
+/build/
+/dist/
+/.cache/
+.env
+.env.*
+!.env.example
+*.log
+*.profraw
+*.profdata
+*.deb
+*.AppImage
+.DS_Store
+.idea/
+.vscode/
+**/__pycache__/

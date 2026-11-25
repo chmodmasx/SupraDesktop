@@ -1,0 +1,2 @@
+# ADR-0002 — Rust y Wayland
+Estado: PROPOSED. Rust First y Wayland Native son principios aprobados; Smithay preferido frente a wlroots/KWin/Mutter o compositor desde cero. Verificar APIs, licencias, soporte de protocolos, backend NVIDIA e integración XWayland. Toolkit Iced provisional; comparar libcosmic y GPUI con pruebas de accesibilidad, layer shell, renderizado y texto. No fijar dependencia hasta superar prototipo.

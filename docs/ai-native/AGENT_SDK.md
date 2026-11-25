@@ -1,0 +1,3 @@
+# SDK de integración
+
+El desarrollador registra una acción de dominio una sola vez; UI, menú, atajo, CLI y MCP la invocan por sus contratos. Declarar id, schema, resultado, permisos, eventos, accesibilidad, efectos y pruebas. Identificadores semánticos no dependen de coordenadas o traducción; versiones y vida útil explícitas. Adaptadores AT-SPI y visual sujetos a permisos; no garantizan cobertura de apps externas. CLI JSON estable, errores y códigos de salida documentados, sin scraping de texto. El SDK no concede privilegios por sí solo. Interfaces y ejemplos ejecutables pendientes del primer crate.

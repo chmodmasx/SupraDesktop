@@ -1,0 +1,3 @@
+# Compatibilidad
+
+Qt 6/5: adaptadores de tema y plataforma cuando corresponda; GTK 3/4/libadwaita dentro de límites de toolkit; Electron y XWayland apariencia variable. No interceptar UI ni forzar modificaciones frágiles. Flatpak: portales XDG; AppImage: integración desktop entry; Wine/Proton/Steam: Wayland o XWayland según app, pruebas de entrada, fullscreen, capture y explicit sync. Menú global solamente donde app exporta menú. No prometer identidad visual total en apps externas. Accesibilidad AT-SPI y selección de IME. Matriz por versión, GPU, protocolo, caso de uso, resultado y limitación; todavía sin resultados.

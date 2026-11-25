@@ -1,0 +1,20 @@
+name: Requisito o propuesta
+description: Proponer un cambio verificable
+title: "[Proposal] "
+body:
+  - type: textarea
+    id: requirement
+    attributes:
+      label: Requisito, alcance y principio asociado
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Criterios de aceptación, dependencias y riesgos
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Fuentes y alternativas
