@@ -1,2 +1,8 @@
 # ADR-0005 — Licencias
 Estado: PROPOSED / decisión pendiente. Proyecto destinado a código abierto. GPL-3.0-or-later es candidata si se integra código GPL, no licencia aprobada. Auditar versiones concretas y dependencias transitivas; Smithay/Iced reportados MIT, libcosmic MPL-2.0, Niri GPL-3.0, Inter OFL-1.1, COSMIC Portal GPL-3.0-or-later, GPUI Apache-2.0: verificar archivos LICENSE upstream. No copiar código, iconos, fuentes, sonidos ni assets Apple sin autorización. Diferenciar uso permitido de kits de su redistribución. Revisión jurídica de similitud y marca antes de distribución. No añadir LICENSE definitivo hasta elección del mantenedor.
+
+
+## Aclaración del mantenedor
+No se usarán recursos de Apple. El diseño de interfaz se busca 1:1, exceptuando arte, marca y recursos propietarios; no es una reinterpretación visual. [Licencia Apple Design Resources](https://developer.apple.com/support/downloads/terms/apple-design-resources/Apple-Design-Resources-License-20230621-English.pdf) y [fuentes](https://developer.apple.com/fonts/) restringen sus respectivos recursos. No utilizarlos en diseño/implementación de SupraDesktop. La ausencia de recursos copiados no elimina por sí sola todos los riesgos de propiedad intelectual; revisar antes de distribuir. No eliminar valores observables solo por coincidir; exigir procedencia independiente y revisión. Licencia del código propio pendiente.
+
+[Recomendación y auditoría](../development/LICENSE_STRATEGY.md). GPL-3.0-or-later candidata para código propio, SDK permisivo solo independiente; ratificación pendiente. No aplicar licencia definitiva.

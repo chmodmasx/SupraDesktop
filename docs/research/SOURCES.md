@@ -25,3 +25,39 @@ Compilación de referencias discutidas durante la planificación (24-11-2026). N
 
 ## Pendientes
 Fijar build nativo de macOS, permisos de uso de referencia y corpus; extraer valores verificables; medir blur efectivo, paleta, sombras, refracción, curvas de animación, tipografía y geometría; comparar toolkit y backends; auditar licencias y amenazas; reproducir benchmarks. No presentar capturas o números no medidos como resultados.
+
+
+## Segunda revisión
+[Validación upstream](UPSTREAM_VALIDATION.md). Las referencias de kits y extracciones anteriores se conservan como historial no operativo, no como autorización ni fuente de tokens. No utilizar recursos de Apple. Priorizar documentación pública conceptual, observaciones permitidas y mediciones independientes.
+
+## Iconografía
+- [WhiteSur Icon Theme, revisión 73d8040](https://github.com/vinceliuice/WhiteSur-icon-theme/tree/73d8040da51a9ed74e47c7366e7e9ff437601a5c): candidato GPL v3. [COPYING](https://github.com/vinceliuice/WhiteSur-icon-theme/blob/73d8040da51a9ed74e47c7366e7e9ff437601a5c/COPYING), [AUTHORS](https://github.com/vinceliuice/WhiteSur-icon-theme/blob/73d8040da51a9ed74e47c7366e7e9ff437601a5c/AUTHORS), [install.sh](https://github.com/vinceliuice/WhiteSur-icon-theme/blob/73d8040da51a9ed74e47c7366e7e9ff437601a5c/install.sh). README describe estética Big Sur; instalador incluye opción de reemplazar logo Apple y no copia COPYING/AUTHORS por defecto (línea comentada). Auditoría por recurso pendiente; no importar todavía.
+
+## Revisión técnica ampliada
+- [Toolkit y prototipos](TOOLKIT_EVALUATION.md).
+- [Composición, protocolos y gráficos](GRAPHICS_AND_PROTOCOLS.md).
+- [Integración Linux y ciclo de sesión](LINUX_INTEGRATION.md).
+- [Inventario visual y de interacción](../reference-macos27/INTERACTION_MATRIX.md).
+- [Puertas experimentales M00/M01](../testing/EXPERIMENT_MATRIX.md).
+- [Interoperabilidad de agentes](../ai-native/INTEROPERABILITY.md).
+
+## Revisión avanzada
+[Índice de fidelidad](../reference-macos27/fidelity/README.md): geometría, animaciones, Dock, ventanas y menús, gestos, scroll, óptica, texto, controles, monitores, gestión de sesión y aplicaciones. Referencias públicas por documento; no kits ni recursos Apple. Consulta documental 2026-11-24; mediciones nativas pendientes.
+
+## Candidatos complementarios
+[Kurbo](https://github.com/linebender/kurbo) curvas Rust; [Parley](https://github.com/linebender/parley) layout enriquecido; [cosmic-text](https://github.com/pop-os/cosmic-text) layout bidi; [Tantivy](https://github.com/quickwit-oss/tantivy) full text; [DRM/KMS](https://docs.kernel.org/gpu/drm-kms.html) modos y color; [Wayland color management](https://wayland.app/protocols/color-management-v1). Revisión documental, no importación ni selección definitiva.
+
+## Investigación de subsistemas S01–S15
+[Índice](../specifications/subsystems/README.md) contiene referencias primarias y candidatos, con fuentes por área (Icon Composer, freedesktop, Qt, GTK, Taffy, DTCG, Quick Look, Wayland, WASI, systemd, LocalSend, App Intents). Consulta documental, no mediciones ni importación. [Puertas](../testing/SUBSYSTEM_VALIDATION.md).
+
+## Investigación de plataforma interna
+[Índice A00/P16–P30](../specifications/platform/README.md): fuentes por subsistema (AppDir/AppImage/Flatpak/helloSystem/Apple Bundles, Smithay, etagere, xkbcommon, Unicode, AccessKit/Orca, systemd, calloop/Tokio/zbus, UPower, portals, IronRDP, Fluent/ICU4X, Rust ABI/WIT, Freedesktop Notifications, BlueZ/UDisks2, tracing). Consulta documental, 2026-11-24. Sin resultados de ejecución.
+
+## Distribución Arch atómica
+[Investigación y referencias](../distribution/README.md), [actualizaciones](../distribution/DEPLOYMENT.md), [AUR](../distribution/APPLICATIONS_AUR.md), [drivers](../distribution/KERNEL_EXTENSIONS.md), [build](../distribution/BUILD_RELEASE.md). Fuentes verificadas documentalmente 2026-11-24; no se ha ejecutado una VM ni creado imágenes.
+
+## Revisión de código de distribución
+Arkdep d7aa2f7, Solera 0b405285, bootc e074dc8 y Calamares histórico 95aa33f: [auditoría y referencias](../distribution/ARKDEP_SOURCE_REVIEW.md), [frontend](../distribution/INSTALLER_FRONTEND.md). Calamares activo en Codeberg; revisar versión 3.4.x al prototipar, no tratar el mirror histórico como upstream actual. Revisión estática y documental, sin VM, sin ejecución de scripts.
+
+## Investigación orientada a evidencia
+[Gráficos](GRAPHICS_PROTOTYPES.md), [captura](../reference-macos27/CAPTURE_LAB.md), [licencias](../development/LICENSE_STRATEGY.md), [laboratorio](../testing/VALIDATION_LAB.md), [release](../distribution/RELEASE_LAB.md), [firmware](../distribution/HARDWARE_FIRMWARE.md). Fuentes consultadas 2026-11-24. No benchmarks ni mediciones nativas.

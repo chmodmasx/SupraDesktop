@@ -22,3 +22,9 @@ Requisitos ordenados por identidad del proyecto. Seguridad, accesibilidad, legal
 
 ## Resolución de conflictos
 No sacrificar seguridad, legalidad o accesibilidad para alcanzar el aspecto visual. Documentar discrepancias y alternativas en ADR; no cambiar los principios sin aprobación explícita del mantenedor. No añadir alcance ajeno al propósito. Evitar duplicaciones, atajos permanentes, abstracciones sin necesidad y dependencias no justificadas. Toda regresión debe quedar visible.
+
+## Alcance exacto de 1:1 macOS Visual (aclaración del mantenedor, 2026-11-24)
+La interfaz debe reproducir visualmente macOS 1:1, no reinterpretarlo: colores, materiales, blur, transparencia, refracción, iluminación, sombras, geometría, tamaños, espaciado, layout, estados y animaciones. La excepción son los recursos artísticos y la identidad de marca: iconos, fondos, sonidos, logotipos y otros recursos serán originales o libres y auditados; tipografía libre con métricas ajustadas. Código propio e independiente. No cambiar parámetros de interfaz arbitrariamente para diferenciarse. Las excepciones técnicas, legales y de accesibilidad deben registrarse; no ocultarlas en la métrica de fidelidad. No usar recursos de diseño de Apple. Medir y reproducir de forma independiente; no afirmar que una implementación idéntica está verificada sin evidencia.
+
+## Regla vinculante: No dependency shall dictate our design
+Ninguna biblioteca, toolkit o framework puede imponer límites que impidan cumplir los principios de SupraDesktop. Reutilizar, extender, adaptar, incorporar código libre con atribuciones, mantener un fork o implementar una alternativa propia según evidencia. No sacrificar el 1:1 por comodidad ni inventar una dependencia obligatoria. Seguridad, accesibilidad, legalidad y estabilidad siguen siendo restricciones transversales. Esta regla complementa los principios 1 y 3; no cambia su orden. Aprobada por el mantenedor, 2026-11-24.

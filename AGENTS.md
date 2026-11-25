@@ -12,3 +12,13 @@
 10. Actualizar especificaciones, ADR, roadmap y pruebas al cambiar contratos. Indicar claramente PROPOSED, ACCEPTED, IMPLEMENTED o VERIFIED. No declarar VERIFIED sin evidencia.
 11. Si un requisito no puede satisfacerse, documentar el bloqueo y preservar el funcionamiento previo. No reemplazarlo silenciosamente por una simulación.
 12. No incluir secretos, datos privados, capturas sensibles o credenciales en código, commits, logs ni prompts.
+
+13. Aplicar 1:1 a la interfaz, no solo a una estética aproximada. La excepción artística no autoriza cambiar paleta, blur, geometría, sombras, disposición, estados o movimiento. No usar kits, iconos, fuentes ni otros recursos de Apple. Emplear observaciones permitidas y recursos propios; consultar docs/reference-macos27/MEASUREMENT_PROTOCOL.md. Los valores históricos no verificados no son tokens aprobados.
+
+14. Ninguna dependencia dicta el diseño. Si el componente no supera los criterios 1:1, AI Ready u otros principios, investigar extensión, adaptación, fork, sustitución o implementación propia. Documentar alternativas, procedencia, licencia, pruebas, coste y mantenimiento antes de adoptar código. No rebajar los criterios para acomodar un toolkit. Consultar docs/development/UPSTREAM_POLICY.md.
+
+15. La distribución oficial candidata se basa en Arch atómico; .deb queda fuera de su ruta. No confundir escritorio con distribución ni migrar SupraLINUX actual. No instalar paquetes sobre la imagen activa ni conceder privilegios a agentes para instalar módulos. No construir una imagen de producción hasta superar puertas D y obtener aprobación. Leer docs/distribution/README.md.
+
+16. Beginner First / Advanced When Needed: instalación, actualización y recuperación deben ser gráficas, accesibles y comprensibles, sin exigir terminal; no ocultar riesgos ni fingir progreso. No alterar lógica de particionado por motivos visuales. Para elegir backend de despliegue, consultar docs/distribution/ARKDEP_SOURCE_REVIEW.md y PROTOTYPE_GATES.md; no habilitar layer/unlayer in-place. No crear repos ni fusionar PR sin autorización.
+
+17. Mantener independencia de repositorios: distro consume versiones fijadas de SupraDesktop; no duplicar tokens/SDK ni acoplar escritorio a backend de despliegue. Segundo repo propuesto, no creado. No iniciar firmware real, modificar discos host ni usar claves productivas durante prototipos. Leer docs/testing/VALIDATION_LAB.md.

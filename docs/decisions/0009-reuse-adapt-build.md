@@ -1,0 +1,3 @@
+# ADR-0009 — Ninguna dependencia dicta el diseño
+Estado: ACCEPTED para política general por instrucción explícita del mantenedor. Las elecciones concretas permanecen PROPOSED.
+Priorizar reutilización directa cuando cumple requisitos. Si no, extender, parchear, adaptar, incorporar código libre, mantener fork o implementar solución propia. No reducir fidelidad por limitaciones del toolkit. Mantener aislamiento modular, atribución, licencias, fuentes, tests y coste de mantenimiento. No asumir que GPL y MIT son intercambiables; licencia del núcleo pendiente. Consultar [política upstream](../development/UPSTREAM_POLICY.md).
