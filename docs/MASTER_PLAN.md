@@ -22,3 +22,6 @@ SupraLab + compositor anidado + material calibrable + un control accesible con a
 
 ## Estado y decisiones
 Los principios aprobados guían M00. El resto es especificación propuesta salvo ADR aceptado por el mantenedor. Ningún resultado gráfico ni benchmark está verificado. Los objetivos visuales y numéricos son hipótesis que requieren macOS nativo y hardware. Véase [roadmap](ROADMAP.md), [arquitectura](architecture/ARCHITECTURE.md), [fuentes](research/SOURCES.md).
+
+## Aclaración de alcance aprobada
+La fidelidad 1:1 abarca apariencia, disposición, materiales y estados de toda la interfaz propia, con excepciones explícitas para arte, marca y tipografía propietaria. No utilizar recursos de Apple; medir independientemente y documentar desviaciones. La compatibilidad externa y las restricciones transversales siguen vigentes. Véase [metodología](reference-macos27/MEASUREMENT_PROTOCOL.md).

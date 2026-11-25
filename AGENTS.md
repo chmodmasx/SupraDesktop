@@ -12,3 +12,5 @@
 10. Actualizar especificaciones, ADR, roadmap y pruebas al cambiar contratos. Indicar claramente PROPOSED, ACCEPTED, IMPLEMENTED o VERIFIED. No declarar VERIFIED sin evidencia.
 11. Si un requisito no puede satisfacerse, documentar el bloqueo y preservar el funcionamiento previo. No reemplazarlo silenciosamente por una simulación.
 12. No incluir secretos, datos privados, capturas sensibles o credenciales en código, commits, logs ni prompts.
+
+13. Aplicar 1:1 a la interfaz, no solo a una estética aproximada. La excepción artística no autoriza cambiar paleta, blur, geometría, sombras, disposición, estados o movimiento. No usar kits, iconos, fuentes ni otros recursos de Apple. Emplear observaciones permitidas y recursos propios; consultar docs/reference-macos27/MEASUREMENT_PROTOCOL.md. Los valores históricos no verificados no son tokens aprobados.

@@ -1,5 +1,7 @@
 # Materiales — registro de hipótesis visuales
 
+**AVISO DE PROCEDENCIA — NO OPERATIVO:** las cifras históricas de este borrador no están verificadas independientemente y no constituyen parámetros de producción aprobados. No utilizar recursos de diseño de Apple ni extraer sus archivos. Sustituir las hipótesis por mediciones propias permitidas y datos de procedencia lícita; preservar la meta 1:1 sin inventar valores. Véase [protocolo de medición](../reference-macos27/MEASUREMENT_PROTOCOL.md).
+
 Valores extraídos/reportados en la investigación previa del kit Sketch macOS 27; fuente exacta y revisión nativa pendientes. Radios de diseño NO son sigma gaussiano, píxeles físicos ni unidades de KWin/GLSL. Separar blur del fondo, blur de sombras y blur efectivo medido. Calibrar con patrones y perfiles de color.
 
 | Liquid Glass | Radio claro/oscuro | Saturación C/O |

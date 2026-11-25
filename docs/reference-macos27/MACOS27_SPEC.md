@@ -22,3 +22,6 @@ Capturas propias lícitas de referencia: fondo uniforme, gradiente, rejilla, pat
 
 ## Límites
 No se garantiza identidad literal de fuentes, iconos o recursos Apple. No implementar iCloud, iMessage o AirDrop como si fueran servicios compatibles. Priorizar equivalentes propios interoperables. Verificar cada comportamiento y medidas específicas en sistema real antes de cerrar requisito.
+
+## Alcance exacto
+Comparar todos los elementos de interfaz, incluidos materiales, iconos de controles funcionales, geometría, distribución, estado y movimiento. La ilustración artística, los iconos de aplicación, sonidos, fondos, marca y fuentes propietarias no se copian: usar equivalentes propios/libres con dimensiones y alineaciones comparables. Para métricas, excluir únicamente las regiones artísticas declaradas previamente; no excluir fallos de layout, tipografía, sombras o materiales. [Protocolo](MEASUREMENT_PROTOCOL.md).

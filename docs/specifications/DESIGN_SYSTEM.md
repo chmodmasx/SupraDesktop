@@ -1,5 +1,7 @@
 # Sistema de diseño SupraUI
 
+**AVISO DE PROCEDENCIA — NO OPERATIVO:** las cifras históricas de este borrador no están verificadas independientemente y no constituyen parámetros de producción aprobados. No utilizar recursos de diseño de Apple ni extraer sus archivos. Sustituir las hipótesis por mediciones propias permitidas y datos de procedencia lícita; preservar la meta 1:1 sin inventar valores. Véase [protocolo de medición](../reference-macos27/MEASUREMENT_PROTOCOL.md).
+
 Tokens semánticos canónicos versionados: color.text.primary/secondary/tertiary/quaternary, color.window.background, color.selection.active, color.accent, material.dock/menu/sidebar/toolbar/notification, geometry.window.radius, spacing, typography, shadow, animation. Generar adaptadores sin duplicar constantes. Apariencia clara, oscura, alto contraste, reducción de movimiento/transparencia, acentos y estados activo/inactivo.
 
 ## Paleta de trabajo

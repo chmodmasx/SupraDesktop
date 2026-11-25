@@ -21,3 +21,6 @@ Referencia inicial: macOS 27. Implementación independiente, Rust First, Wayland
 No se promete equivalencia binaria con macOS, compatibilidad con servicios propietarios, ni distribución de recursos de Apple. Licencia del código propio pendiente de ratificación y auditoría de dependencias; no incorporar código ajeno hasta resolverla. No es un proyecto afiliado a Apple.
 
 No hay instrucciones de instalación todavía. No reemplazar una sesión existente con prototipos.
+
+## Alcance de fidelidad
+1:1 visual de la interfaz (no mera inspiración), con arte y marca originales y tipografía libre de métricas equivalentes. No se utilizan recursos de Apple. [Metodología de medición](docs/reference-macos27/MEASUREMENT_PROTOCOL.md) · [Revisión upstream](docs/research/UPSTREAM_VALIDATION.md).

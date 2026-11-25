@@ -25,3 +25,7 @@ Compilación de referencias discutidas durante la planificación (24-11-2026). N
 
 ## Pendientes
 Fijar build nativo de macOS, permisos de uso de referencia y corpus; extraer valores verificables; medir blur efectivo, paleta, sombras, refracción, curvas de animación, tipografía y geometría; comparar toolkit y backends; auditar licencias y amenazas; reproducir benchmarks. No presentar capturas o números no medidos como resultados.
+
+
+## Segunda revisión
+[Validación upstream](UPSTREAM_VALIDATION.md). Las referencias de kits y extracciones anteriores se conservan como historial no operativo, no como autorización ni fuente de tokens. No utilizar recursos de Apple. Priorizar documentación pública conceptual, observaciones permitidas y mediciones independientes.
